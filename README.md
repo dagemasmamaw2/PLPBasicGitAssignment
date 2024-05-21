@@ -1,9 +1,11 @@
 # PLPBasicGitAssignment
 
-To initialize local repository  
+To initialize local repository 
+ 
 1.	$ git init
 
 To connect the remote repo with the local repo
+
 2.	$ git remote add origin https://github.com/dagemasmamaw2/PLPBasicGitAssignment.git
 
 To change master branch to main branch 
@@ -11,6 +13,7 @@ To change master branch to main branch
 
 To pull read me document from remote repository 
 4.	$ git pull origin main
+
 From https://github.com/dagemasmamaw2/PLPBasicGitAssignment
  * branch            main       -> FETCH_HEAD
 
@@ -26,14 +29,15 @@ Commit the changes with a message by running
  1 file changed, 1 insertion(+)
  create mode 100644 hello.txt
 
-To staging read me file modification 
+To staging read me file modification
 8.	$git add .
 
-Committing the change in read me file 
+Committing the change in read me file
 9.	$ git commit -m "Modifying Read Me File"
 
 Push the committed changes to your GitHub repository using
 10.	$ git push -u origin main
+
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 4 threads
